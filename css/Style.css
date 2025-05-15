@@ -1,0 +1,69 @@
+body{
+    height: 100%;
+}
+
+
+.container{
+    
+    border:2px solid black;
+}
+
+.numeros{
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 40%;
+    
+}
+
+.TITULO{
+    text-align: center;
+}
+
+#Input-formulario{
+    color: white;
+}
+
+#tituloP{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white; 
+    margin: 0 auto;
+}
+
+.busqueda{
+    width: 500px;
+    border:none;
+    outline: none;
+    margin-right: 10px;
+    border-radius:10px;
+    color: white;
+    padding: 10px;
+    transition: all 0.2s ease;
+}
+
+.busqueda:focus{
+    transform: scale(1.03);
+}
+
+.botonB{
+    background-color: #C62828;
+    border:none;
+    outline:none;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+.botonB:hover{
+    transform: scale(1.1);
+}
+
+.carrusel p{
+    color: white;
+}
+.carrusel h5{
+    color:white;
+}
+
+
+
+
+
+
