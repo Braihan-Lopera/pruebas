@@ -64,10 +64,94 @@ body{
 
 a {
     text-decoration: none;
-    
 }
 
 
+/*Page2*/
 
+/*Navbar*/
+.NavegacionInt{
+    color:white;
+    Background-color: rgba(63, 63, 63, 0.856);
+}
 
+.BusquedaNv{
+    color:rgb(0, 0, 0);
+    border:none;
+    outline: none;
+    padding:10px;
+    background-color: rgb(90, 90, 90);
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: 0.3 ease;
+}
+.BusquedaNv:hover{
+    transform: scale(1.05);
+    background-color:rgba(235, 235, 235, 0.856) ;
+}
+.SearchBtn{
+    outline: none;
+    border:none;
+    border-radius:5px;
+    background-color: #C62828;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.SearchBtn:hover{
+    background-color: #FF3B3F;
+}
+.ListItm{
+    color:white;
+    text-decoration: none;
+}
+.ListItm:visited{
+    color:white;
+}
+.ListItm:hover,
+.ListItm:focus,
+.ListItm:active{
+    text-decoration: none;
+}
+#LiText{
+    padding: 10px;
+}
+.DropMenuL{
+    text-decoration: none;
+}
+.DropMenuL:visited{
+    color:rgb(0, 0, 0);
+}
+.DropMenuL:focus,
+.DropMenuL:active{
+    text-decoration: none;
+}
+#IntLiItm li:hover{
+    background-color: rgb(95, 94, 94);
+}
 
+/*header*/
+.CuerpoNv{
+    align-items: center;
+}
+.Titulo{
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    text-align: center;
+    margin:5px;
+}
+
+.Titulo:hover,
+.Titulo:visited,
+.Titulo:focus{
+    text-decoration: none;
+}
+/*Contenido Principal*/
+.ContenidoP{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.TituloP {
+    padding: 20px;
+    text-align: center;
+}
