@@ -160,4 +160,17 @@ a {
 
 /*Formulario*/
 
+.IMGP3 img{
+    width: 90%;
+    height: auto;
+    margin: 5px;
+    border: 2px solid black;
+    transition: 0.5s ease;
+}
 
+.IMGP3 img:hover{
+    transform: scale(1.02);
+}
+.tituloP2{
+    color: black;
+}
